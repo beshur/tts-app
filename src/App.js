@@ -5,9 +5,6 @@ import TTS from './containers/TTS/TTS';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
-
       <main className="App-main">
         <TTS />
       </main>

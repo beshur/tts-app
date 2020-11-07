@@ -1,0 +1,20 @@
+.TTS {
+
+}
+
+.TTS-err {
+  padding: 20px;
+  color: #ff5722;
+}
+
+.Controls {
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.TextInput {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  resize: none;
+}

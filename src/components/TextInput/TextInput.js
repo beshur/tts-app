@@ -6,12 +6,20 @@ const TextInput = (props) => {
     width: '100%',
     padding: '20px',
     borderRadius: '20px',
-    fontSize: '2rem'
+    fontSize: '2rem',
+    boxShadow: '0 3px 13px -6px #7b7b7b',
+    border: '1px solid #afc3d4',
+    outline: 'none',
+    resize: 'none'
   }
 
   return (
     <div>
-      <textarea style={style} onChange={(e) => props.onChange(e.target.value)} value={props.text} placeholder='Type English text to speak aloud' />
+      <textarea
+        style={style}
+        onChange={(e) => props.onChange(e.target.value)}
+        value={props.text}
+        placeholder={props.placeholder} />
     </div>
   );
 };
